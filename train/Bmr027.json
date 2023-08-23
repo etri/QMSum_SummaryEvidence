@@ -1,0 +1,753 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": null,
+    "icsi": null,
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The meeting was mostly about the logistics of covering the legal bases around releasing meeting data.",
+                    "The team wanted to make sure that meeting participants would not sue for libel or releasing unwanted information.",
+                    "The team also went over the transcriptions that IBM had done as well as storage space, which was finally looking up.",
+                    "The meeting ended with a general discussion about the progress of the group and future directions."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Oh . I just meant that that was {pause} the release date that you had on the {pause} data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 199,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "and say \" on the fifteenth , the data is released ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 206,
+                            "sent_index": 1,
+                            "speaker": "PhD H",
+                            "content": "but you should probably have a {pause} legal person look at this"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 330,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "Or , is email enough ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 332,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Do we have to have it notarized ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 333,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "I mean , I 'm not a lawyer ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 333,
+                            "sent_index": 3,
+                            "speaker": "Professor B",
+                            "content": "but I 've been through these things a f things f like this a few times with lawyers now"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 134,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "If someone says \" hey , look , I {pause} found something in this meeting and {pause} it 's libelous and I want it removed \" . What can we do ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 136,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "We have to remove it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "but I think that it would {disfmarker} it , uh {disfmarker} we need to have , uh , a {disfmarker} a {disfmarker} a message to them very clearly that {vocalsound} beyond this date , you can't make additional changes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 148,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I 'm just saying you should decide something ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "And if you disagree with it , why don't you read it and give me comments on it ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 154,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 607,
+                            "sent_index": 3,
+                            "speaker": "PhD C",
+                            "content": "So we got the transcript back from that one meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 607,
+                            "sent_index": 5,
+                            "speaker": "PhD C",
+                            "content": "Adam {pause} had a script that will {pause} put everything back together and there was {disfmarker} Well , there was one small problem but it was a simple thing to fix ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 613,
+                            "sent_index": 0,
+                            "speaker": "PhD C",
+                            "content": "Yeah . It 's gonna have to go through our regular process ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 614,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "I mean , the one thing I noticed is it did miss a lot of backchannels ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 625,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Yeah . They 're {disfmarker} they 're not in the segmented ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 627,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "It 's not that the {pause} IBM people didn't do it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 776,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Uh , the only one was Don wanted to , uh , talk about disk space yet again ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 861,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "We 're supposed to {vocalsound} get together and talk about , uh , where we are on things ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 864,
+                            "sent_index": 2,
+                            "speaker": "Professor B",
+                            "content": "so they {disfmarker} so DARPA just said do an annual report ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 864,
+                            "sent_index": 8,
+                            "speaker": "Professor B",
+                            "content": "I mean , the status reports you do are very helpful ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 947,
+                            "sent_index": 0,
+                            "speaker": "PhD H",
+                            "content": "I mean , the {disfmarker} the next thing on our agenda is to go back and look at the , um {disfmarker} {vocalsound} the automatic alignments"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 950,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "And then , uh , I guess , the new data that Don will start to process {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 970,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Y you going to , uh , Eurospeech ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 973,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "but I 'd kinda like to go ,"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about releasing meeting data and allowing people to cut things out",
+                "tokenized_answer": [
+                    "The team decided to release their data on July 15th, but they still wanted to give people time to bleep things from the transcripts.",
+                    "There was skepticism that they could actually reach out to people and get everyone's consent that they were okay with whatever was being released."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 37,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "July fifteenth ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 41,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Oh . I just meant that that was {pause} the release date that you had on the {pause} data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 76,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "We just need to tell them that they can do it if they want ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 81,
+                            "sent_index": 3,
+                            "speaker": "Postdoc A",
+                            "content": "they can change it to . One of them is {pause} \" censor \" , and the other one is \" incorrect \" ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 83,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "I mean , it 's an added , uh , level of checking on the accuracy of the transcription , as I see it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 595,
+                            "sent_index": 6,
+                            "speaker": "PhD E",
+                            "content": "Like , if we release {disfmarker} this time it 's a fairly small number of meetings ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 595,
+                            "sent_index": 7,
+                            "speaker": "PhD E",
+                            "content": "but what if we release , like , twenty - five meetings to people ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 596,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Well , what my s expectation is , is that we 'll send out one of these emails {pause} every time a meeting has been checked and is ready ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 597,
+                            "sent_index": 2,
+                            "speaker": "PhD E",
+                            "content": "So this time was just the first chunk . OK ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "Is that {pause} the way it 's gonna be , you think , Jane ?"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team think about sending an email to ask for changes?",
+                "tokenized_answer": [
+                    "The team thought that people would not respond to their emails, which would be compounded by them being out of town over the summer.",
+                    "Based on knowledge about similar data collection, they thought that emails should be enough, but skepticism about getting consent with emails prevailed."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 1,
+                            "speaker": "Postdoc A",
+                            "content": "This is in the summer period"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 2,
+                            "speaker": "Postdoc A",
+                            "content": "and presumably people may be out of town ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 212,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "and someone doesn't respond ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 330,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "Do we need to get someone 's signature ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 330,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "Or , is email enough ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 331,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "I i i em email is enough ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 596,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Well , what my s expectation is , is that we 'll send out one of these emails {pause} every time a meeting has been checked and is ready ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 600,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "Is that {pause} the way it 's gonna be , you think , Jane ?"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did Grad F think about getting consent?",
+                "tokenized_answer": [
+                    "Grad F was responsible for bringing up the topic.",
+                    "Apparently, no one had replied to the emails allowing people to bleep things out so far.",
+                    "According to Grad F, as long as the email was sent out, the team was covered.",
+                    "Grad F thought this had been settled when the project started and did not need to be revisited."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 17,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "So I didn't send out agenda items"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 17,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "because until five minutes ago we only had one agenda item"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 17,
+                            "sent_index": 3,
+                            "speaker": "Grad F",
+                            "content": "and now we have two ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 18,
+                            "sent_index": 1,
+                            "speaker": "Professor B",
+                            "content": "So , just to repeat the thing bef that we said last week ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "so far no one has made any {disfmarker} Ach ! {comment} {comment} any comments on them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 3,
+                            "speaker": "Grad F",
+                            "content": "So , no on no one has bleeped out anything ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "So , uh , as most of you should know , I did send out the consent form thingies"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 34,
+                            "sent_index": 2,
+                            "speaker": "Grad F",
+                            "content": "So as long as we do that , we 're covered ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 34,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "And the agreement that they already signed simply said that we would give them an opportunity ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 183,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "so , eh , that 's gonna be a little hard to modify ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 224,
+                            "sent_index": 1,
+                            "speaker": "Grad F",
+                            "content": "We have what they put on the speaker form ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 236,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "And so it seems like this is a little odd for it to be coming up yet again ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about new headphones and disk space",
+                "tokenized_answer": [
+                    "The team decided that it would be a good idea to purchase headphones.",
+                    "They also ordered a hundred gigabytes of disk space though they thought an extra eighteen for backup would not be a bad idea.",
+                    "This was good because the team was currently constrained by space."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 729,
+                            "sent_index": 0,
+                            "speaker": "PhD H",
+                            "content": "You have spare headsets ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 746,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "Yeah , I still {disfmarker} I still need to get a pair , too ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 753,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "No . Just {disfmarker} just {disfmarker} just {disfmarker} just buy them ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 764,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "That 'd be a good idea ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 781,
+                            "sent_index": 0,
+                            "speaker": "PhD H",
+                            "content": "The disk space was short ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 802,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "We 've just ordered a hundred gigabytes ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 804,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "I think we need , like , another eighteen gig disk {pause} to be safe ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 781,
+                            "sent_index": 0,
+                            "speaker": "PhD H",
+                            "content": "The disk space was short ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 801,
+                            "sent_index": 1,
+                            "speaker": "Grad D",
+                            "content": "so we 're probably gonna need a lot more {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 840,
+                            "sent_index": 0,
+                            "speaker": "Grad D",
+                            "content": "and , um , in the meantime I 'll just hold out ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 845,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "So there 's another hundred gig ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 851,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Good ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did postdoc A think about new headphones?",
+                "tokenized_answer": [
+                    "Postdoc A thought that the original headphones had low gain, so he purchased new earphones.",
+                    "He informed the team that he just bought them from Cambridge SoundWorks down the street.",
+                    "They always have them in stock."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 714,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "And then I also {disfmarker} the final thing I have for transcription is that I made a purchase of some other headphones"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 716,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "because of the problem of low gain in the originals ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 757,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "Where do you buy these from ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 759,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Cambridge SoundWorks , just down the street ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 760,
+                            "sent_index": 1,
+                            "speaker": "PhD E",
+                            "content": "You just b go and b"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 761,
+                            "sent_index": 0,
+                            "speaker": "Postdoc A",
+                            "content": "Yeah . They always have them in stock ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Professor think about headphones and disk space?",
+                "tokenized_answer": [
+                    "The professor thought that anyone who needed headphones should purchase them since they were not very expensive.",
+                    "He wanted to get the discussion about disk space out of the way.",
+                    "He informed the team that he had ordered a hundred gigabytes."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 747,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "They 're {disfmarker} they 're {disfmarker} they 're {disfmarker} they 're pretty inexpensive ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 756,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "Just buy them ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 776,
+                            "sent_index": 0,
+                            "speaker": "Grad F",
+                            "content": "Uh , the only one was Don wanted to , uh , talk about disk space yet again ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 802,
+                            "sent_index": 0,
+                            "speaker": "Professor B",
+                            "content": "We 've just ordered a hundred gigabytes ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
