@@ -1,6 +1,6 @@
 # QMSum_SummaryEvidence
 
-**QMSum_SummaryEvidence** dataset is a newly annotated version of [QMSUM](https://github.com/Yale-LILY/QMSum), by manually and explicitly annotating evidence sentences that faithfully “support” each summary sentence.
+**QMSum_SummaryEvidence** dataset is a newly annotated version of [QMSum](https://github.com/Yale-LILY/QMSum), by manually and explicitly annotating evidence sentences that faithfully “support” each summary sentence.
 
 
 ### Evidence Type
