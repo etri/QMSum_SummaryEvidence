@@ -1,0 +1,1097 @@
+{
+    "domain": "Product(ami)",
+    "ami": null,
+    "icsi": null,
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The group mainly talked about the extra deciding of the product at this meeting including the presentation of the prototype assessment, the discussion of the requirements and trends of marketing and the product cost and quotation.",
+                    "Firstly, the Industrial Designer introduced the prototype of the product.",
+                    "It had not only the round basic shape which was made of hard plastics and titanium using different colors, but also the buttons like channel and volumn.",
+                    "Later, the group discussed some details and changes of redesigning the logo, buttons and screens.",
+                    "Next, the Marketing Expert mentioned the exterior of the product, the material attraction, and how easy it was to learn or use the basic functions of the product.",
+                    "Besides, the group discussed some details of the cost of components and made the product cheaper by replacing the titanium by hard plastics with similar color.",
+                    "They finally got an estimate of fourteen point one Euros, which was above the budget.",
+                    "In the end, they discussed the distinction between the product and other devices, and celebrated the completion of the project."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "We have to do what ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Some extra deciding ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Well you'll you two will uh present us your prototype ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 16,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'll show you how we're going to do with financing this uh design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And then we'll evaluate , after after we have redesigned it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 21,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Um we'll uh evaluate our p our uh production"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 239,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "So I made a {disfmarker} I made a few questions on the hand of uh uh the impor most important requirements and trends ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 38,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Well uh next you two will uh present uh the pot prototype for us ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 39,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Alright , we both uh will ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "this is our design ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh we'll begin uh with the front ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "We have of course uh the the round shape uh the round uh basic shape ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 4,
+                            "speaker": "Industrial Designer",
+                            "content": "Um with uh the upper part being the front ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "Th So there's this part um {vocalsound} which is made of hard plastic , the front ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "And uh we're we're using different colours ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "We have of course uh the the round shape uh the round uh basic shape ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "Th So there's this part um {vocalsound} which is made of hard plastic , the front ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "And uh we're we're using different colours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "and the rest of it , the under uh the under side uh of it , yeah , the back side and the lower part of the front is of course titanium made of titanium ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "the the con the the the , yeah , the t volume and the channel controls uh in the middle here ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 82,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "You can make uh suggestions uh if you want ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 95,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "We have then the logo on front and on the back ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Yeah , I agree with the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 153,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "And if you have it li in the middle , your hand might be over it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 181,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Well the the {disfmarker} Well that's a reason to to to put the L_C_D_ screen uh of course on the upper side , but {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 245,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Uh the first question is , uh is the device good-looking ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 318,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Are the functions easy to learn ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 322,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Yeah , I agree ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 365,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Is the device easy to use ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 393,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Is the material attractive ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Well the titanium is strong ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 396,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "and uh the rest f uh the buttons feel soft ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 398,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Right ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 418,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Well what costs a lot ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "The speaker costs far , by far the most ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 439,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "It's just extra ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 524,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Well you said s double curved ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 528,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "because uh I thought it's a b a bit cheaper already ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 567,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Why why don't we replace the titanium with uh plastic coloured titanium ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 574,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "well if we uh we we have to get cheaper ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 614,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "So we u we use uh {disfmarker} Unfortunately . Um . Titanium-coloured plastic ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 615,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'll put in the report we that we think that fourteen point one is the l m lowest price you can make a remote for that's trendy d these days ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 690,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "but now we're going to evaluate our project , of uh project ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 694,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "{vocalsound} Well , {vocalsound} satisfaction on for example ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 694,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "are we satisfactory about our creativity ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 695,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Well I can't get no satisfaction , but uh {disfmarker} {vocalsound}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 699,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "Well in in if we consider the costs then this is the best , yeah ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the presentation on the prototype.",
+                "tokenized_answer": [
+                    "The Industrial Designer introduced the prototype of the product.",
+                    "It had not only the round basic shape which was made of hard plastics and titanium using different colors, but also the channel and volume buttons and so on.",
+                    "Basically , bright colours but not black were used, and the lower part of the device was made of titanium.",
+                    "On the side view, the product had the titanium colour and the logo was in the upper corner.",
+                    "Then the buttons like \"okay\", \"volumn\" and \"channel\", was with kind of arrow shapes, which made it more exciting than basic round or square buttons."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 8,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Well you'll you two will uh present us your prototype ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 48,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "this is our design ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "We have of course uh the the round shape uh the round uh basic shape ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "Th So there's this part um {vocalsound} which is made of hard plastic , the front ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 50,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "And uh we're we're using different colours ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "We have of course uh the the round shape uh the round uh basic shape ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "Th So there's this part um {vocalsound} which is made of hard plastic , the front ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 50,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "And uh we're we're using different colours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "and the rest of it , the under uh the under side uh of it , yeah , the back side and the lower part of the front is of course titanium made of titanium ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "the the con the the the , yeah , the t volume and the channel controls uh in the middle here ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But basically , different colours , bright colours not black , too dark . Fancy colours ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "{vocalsound} Um then we have uh the lower part {vocalsound} of the of the device ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Uh which is of course um part of the back actually ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "because it's also titanium ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 4,
+                            "speaker": "Industrial Designer",
+                            "content": "You can see it also on the on the on the side view ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 54,
+                            "sent_index": 5,
+                            "speaker": "Industrial Designer",
+                            "content": "that only this part is the front ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 7,
+                            "speaker": "Industrial Designer",
+                            "content": "and has the titanium colour of course , the look ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 8,
+                            "speaker": "Industrial Designer",
+                            "content": "Um then we have uh on back on the front uh the logo in the upper corner ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "the the con the the the , yeah , the t volume and the channel controls uh in the middle here ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Um um with kind of arrow shapes ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 3,
+                            "speaker": "Industrial Designer",
+                            "content": "which makes it also a bit more exciting than basic round or um uh {vocalsound} uh square buttons ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the Industrial Designer and the Project Manager discuss about the LCD screen?",
+                "tokenized_answer": [
+                    "The User Interface Designer thought\u00a0it might be in the middle of the product because the way users hold the product wouldn't influence the view to the screen, but the Project Manager and the Marketing thought the screen might be covered when held by hands, so the users couldn't figure out what happened on the screen.",
+                    "Then the Project Manager proposed that it was totally unusable, still needing marketing research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Yeah , I agree with the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "You have it in your palm like this , and you can watch uh watch the screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "And if you have it li in the middle , your hand might be over it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 154,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "y y y y you said it was totally uh unusable ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 196,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "when I I my personal taste is that I want it to fall over my hands with a thick {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 211,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "but that's uh that's that's that's more market research ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the Project Manager's perspective on the prototype.",
+                "tokenized_answer": [
+                    "The Project Manager thought the prototype was basically the same with the former one, and the thickness was not suitable for the target customers.",
+                    "Then the LCD screen might be covered when held by hands, so the users couldn't figure out what happened on the screen.",
+                    "Therefore from this perspective the screen was totally unusable, still needing marketing research."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 120,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "If if you look if if this this is thick , and this is thin , th th then it that it lies over your hands . But {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 124,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Well what what what I what I agree is that when uh when um you have such of uh an arc in the middle , so that the the a the ends and the fronts is a bit thicker , so th then it falls over your hands ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 136,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "{gap} This was Mike's prototype ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 137,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Well uh {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 139,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "and y you seemed to agreed on it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Yeah , I agree with the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 153,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "You have it in your palm like this , and you can watch uh watch the screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 153,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "And if you have it li in the middle , your hand might be over it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 193,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "y y y y you said it was totally uh unusable ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 198,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "No not totally ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 211,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "but that's uh that's that's that's more market research ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the User Interface think of using titanium when discussing product cost and quotation?",
+                "tokenized_answer": [
+                    "The User Interface thought it was reasonable to replace the titanium with titanium-coloured plastic.",
+                    "When discussing how to reduce the cost of the product, the user interface designer insisted that if they could only choose to save the titanium exterior or the LCD screen, it would be a better choice to save the LCD screen and dump the titanium cover but replacing it with hard plastics.",
+                    "The result was the major of the group including Marketing agreeed the suggestion."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 567,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Why why don't we replace the titanium with uh plastic coloured titanium ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 568,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "That is pretty stupid . {vocalsound}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 569,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "N not very practical . {vocalsound} Well {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 574,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "well if we uh we we have to get cheaper ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 550,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "We have a big financial problem ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 573,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "You want to dump the titanium ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 599,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "We l we use plastic ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Or change the titanium"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "or dump the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 608,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Yeah ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 609,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Because you have lots of functions {vocalsound} in it too ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 610,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "{vocalsound} Yeah , well yeah . Alright ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why did the Industrial Designer disagree to replace the titanium when discussing product cost and quotation?",
+                "tokenized_answer": [
+                    "The Industrial Designer suggested that the titanium provided the tough look and the strong cover to protect the product.",
+                    "Besides, the older customers would like it much more because it fit their taste.",
+                    "So the titanium was important and shouldn't be replacing by titanium-like plastic or saving the LCD screen but dumping the titanium."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 585,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "I think the titanium just uh provided the the tough look and the and the {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 589,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "and th that it is strong , and {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 590,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "And also the the older people will like it because of that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 596,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "{vocalsound} I think the titanium is very important ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion about product quotation.",
+                "tokenized_answer": [
+                    "When evaluating the cost of the product, the group discussed some details of the components and made some adjustment on the chip, exterior cover material, curve, button and LCD screen.",
+                    "Then they agreed that it could be better changing the titanium to hard a hard kind of plastic looking like titanium than losing the LCD screen.",
+                    "They finally got an estimate of fourteen point one Euros, which was above the budget."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 412,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "look at the costs at this point ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 418,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Well what costs a lot ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 429,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "The speaker costs far , by far the most ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 465,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "What's the difference between a simple and a regular chip ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 467,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Yeah . Regular is normal ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 480,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "Well you have to use the advanced chip , if you have the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 486,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But if you have a regular chip , you can't have the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 516,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "and we have an L_C_ display ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 523,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Well uh and what do they mean with curves uh again ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 542,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yeah , this is actually two curves , yeah ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 546,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "One curve , simple ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 567,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Why why don't we replace the titanium with uh plastic coloured titanium ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 573,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "You want to dump the titanium ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 585,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "I think the titanium just uh provided the the tough look and the and the {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 606,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "But I think you could better change uh titanium to hard a hard kind of plastic looking like titanium than lose the L_C_D_ screen ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 609,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Because you have lots of functions {vocalsound} in it too ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 610,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "{vocalsound} Yeah , well yeah . Alright ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 615,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I'll put in the report we that we think that fourteen point one is the l m lowest price you can make a remote for that's trendy d these days ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
