@@ -1,0 +1,710 @@
+{
+    "domain": "Product(ami)",
+    "ami": null,
+    "icsi": null,
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "This meeting was about the functional design of the remote control.",
+                    "Firstly, Marketing gave a presentation on functional requirements.",
+                    "Group decided to focus on the fancy and fashionable look, usability, and different colors.",
+                    "Next, User Interface gave a presentation on the technical function design.",
+                    "Also, the group discussed this topic, and they decided to design the menu buttons of the remote similar to the mobile phone.",
+                    "Then, Industrial Designer gave a presentation on the working design.",
+                    "Group mates discussed deciding on the use of LED light on the buttons to indicate the transmitting of the Morse code when pressing the button.",
+                    "They also decided to use a more intelligent chip than the standard one when the circuit was closed, it would produce the pattern.",
+                    "For the age group, they would target the age group below forty since it was a young market."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 33,
+                            "sent_index": 10,
+                            "speaker": "Project Manager",
+                            "content": "we have uh forty minutes for this uh for this second meeting ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 35,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "that we know what we're going to make uh th what the product is going to like {disfmarker} look like ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 42,
+                            "sent_index": 9,
+                            "speaker": "Project Manager",
+                            "content": "and it should be a T_V_ remote control only ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 46,
+                            "sent_index": 9,
+                            "speaker": "Project Manager",
+                            "content": "'Specially old people , maybe bi bigger buttons or something ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Functional requirements , yeah"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 10,
+                            "speaker": "Marketing",
+                            "content": "Uh eighty percent of users would spend when uh a remote control will l uh look fancy ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 64,
+                            "sent_index": 14,
+                            "speaker": "Marketing",
+                            "content": "Uh seventy five percent uh seventy five percent of the users say they zap a lot ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 17,
+                            "speaker": "Marketing",
+                            "content": "I think uh we we have to make uh good zap buttons ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 76,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Remote controls are often lost somewhere in the room ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 76,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "Uh I thought mo maybe we could make a clap system ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 78,
+                            "sent_index": 6,
+                            "speaker": "Marketing",
+                            "content": "Because if we make a ha whole new product , our own style , we we c uh this is so difficult , uh a difficulty I think ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 5,
+                            "speaker": "Marketing",
+                            "content": "And we put the fashion in electronics ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "But we have to make sure that we're better usability ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "and stand out by just looks of it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "So make it just a different colour or different shape ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 127,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Technical functions design ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 127,
+                            "sent_index": 6,
+                            "speaker": "User Interface",
+                            "content": "so we need to keep it simple ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 131,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "the options that we put on there should be easy to use ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 131,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "and for elderly people big buttons ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 133,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "Of functions I could think of . Uh volume , channels , the the basic according to {gap} . Just one two three etcetera . Uh text service options . Um basic on-off ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "So you also need a menu button ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 225,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "I I think you ha really have to divide between functions you often use , like um uh m maybe uh switch channels and uh volume and k that kind of things , and uh the menu button ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 227,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Because you n almost never use menu button ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 254,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "maybe you can look at uh mobile phones ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 262,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "And well basically are the same , just a bit smaller ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "the working design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 6,
+                            "speaker": "Industrial Designer",
+                            "content": "Um basically what happens is you press a button ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 273,
+                            "sent_index": 7,
+                            "speaker": "Industrial Designer",
+                            "content": "uh then a circuit gets closed by pressing the button , uh like a switch ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 273,
+                            "sent_index": 8,
+                            "speaker": "Industrial Designer",
+                            "content": "And by closing that certain circuit , the chip knows uh what bu button is pressed ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 273,
+                            "sent_index": 14,
+                            "speaker": "Industrial Designer",
+                            "content": "And and sends that to the uh L_E_D_ ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 273,
+                            "sent_index": 18,
+                            "speaker": "Industrial Designer",
+                            "content": "And uh transmit that uh to the T_V_ ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 273,
+                            "sent_index": 12,
+                            "speaker": "Industrial Designer",
+                            "content": "Then the chip produces a pattern . Like a Morse code"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 273,
+                            "sent_index": 14,
+                            "speaker": "Industrial Designer",
+                            "content": "And and sends that to the uh L_E_D_ ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 276,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "we we also have to have a LED li LED light on it ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 281,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Ain't it just to to indicate that it's transmitting ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 291,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yeah , when you press it ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 311,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Maybe integrate it in the design as well ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 356,
+                            "sent_index": 2,
+                            "speaker": "Industrial Designer",
+                            "content": "We have to make a a s a bit more intelligent chip than the standard one ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 363,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "That's uh when the circuit is closed , it produces the pattern ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 490,
+                            "sent_index": 11,
+                            "speaker": "Project Manager",
+                            "content": "The new product should reach a new market with customers are the younger than forty ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 503,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "then we have to make some nice features ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the presentation and discussion on functional requirements.",
+                "tokenized_answer": [
+                    "Marketing gave some suggestions on the remote functional requirements based on marketing reports, which included a fancy look of the remote control, ease of use for elderly people, a button on the home station to trace its position, and speech recognition.",
+                    "So finally, the group mates suggested the usability and the color of the remote control based on Marketing's presentation."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 54,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Functional requirements , yeah"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 55,
+                            "sent_index": 5,
+                            "speaker": "Marketing",
+                            "content": "I've used a marketing report on uh the site ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 64,
+                            "sent_index": 10,
+                            "speaker": "Marketing",
+                            "content": "Uh eighty percent of users would spend when uh a remote control will l uh look fancy ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Uh . Maybe just a button on the home station ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 77,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "So remote control beeps when you click that button on the home station ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "Uh the last uh experiment uh was about gadgets , like uh speech recognition ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 80,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "We didn't uh think about that already ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Uh it must be simple ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "because uh our the the elderly people uh needs to use it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "'cause there are already , like you said , so many controls out that support lot of stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "But we have to make sure that we're better usability ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "So make it just a different colour or different shape ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why did Marketing suggest giving up on speech recognition when presenting the functional requirements?",
+                "tokenized_answer": [
+                    "When Marketing mentioned that their target group should be both young people and people above forty who were not keen on new features, Marketing thought it would be too expensive to have the speech recognition and not reachable for twenty-five Euros.",
+                    "Also, Marketing suggested a DVD player, stereo, and VCR for television."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "Um uh they finally had a conclusion that younger people um uh under an age of f forty five are uh more interested in new features ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 80,
+                            "sent_index": 6,
+                            "speaker": "Marketing",
+                            "content": "but they're more critical ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 80,
+                            "sent_index": 7,
+                            "speaker": "Marketing",
+                            "content": "And older people uh want to spend uh more money ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "I I think we can speak , uh we can skip speech recognition uh directly ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 87,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "because it's not reachable for twenty five Euros ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 91,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Because it's too expensive ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 90,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "because I thought about television , D_V_D_ player , stereo and V_C_R_ ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did User Interface think of Marketing's suggestion on the ease of use when presenting the functional requirements?",
+                "tokenized_answer": [
+                    "When Marketing mentioned that they should make a new product that looked fancy, fashionable, and was easy to use for elderly users, User Interface suggested making sure that the remote control had better usability and could stand out by just being watched.",
+                    "Also, Marketing suggested a different color or different shape."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "Uh it must be simple ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 3,
+                            "speaker": "Marketing",
+                            "content": "because uh our the the elderly people uh needs to use it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 5,
+                            "speaker": "Marketing",
+                            "content": "And we put the fashion in electronics ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 6,
+                            "speaker": "Marketing",
+                            "content": "And that's uh the motto we are uh referenced to uh for our uh our style ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 94,
+                            "sent_index": 7,
+                            "speaker": "Marketing",
+                            "content": "We we have to make a {vocalsound} a new product ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "But we have to make sure that we're better usability ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "and stand out by just looks of it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 112,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "So make it just a different colour or different shape ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the presentation and discussion on technical function design.",
+                "tokenized_answer": [
+                    "Firstly, User Interface suggested the group should stand up with a unique design like different shapes than usual.",
+                    "User Interface also suggested a new option for favorite channels and a menu button that could integrate with volume, the previous and next buttons.",
+                    "The group agreed to make the remote a bit smaller and would like to look at mobile phones when designing it."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 242,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "Um I think that we should stand out uh unique , being unique with the design ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 242,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "So we have to , I dunno , uh make a different shape than usual ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 133,
+                            "sent_index": 4,
+                            "speaker": "User Interface",
+                            "content": "Could I think of favourites ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 135,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "But if you could make a new option , that you just have to press one button"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "So you also need a menu button ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 222,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "But we can integrate that with volume and previous and next ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 259,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Yeah , we have to look at mobile phones , that's right ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 260,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "They they're uh designed very well ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 262,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "And well basically are the same , just a bit smaller ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 263,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Yeah ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
