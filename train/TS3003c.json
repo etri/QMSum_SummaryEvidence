@@ -1,0 +1,712 @@
+{
+    "domain": "Product(ami)",
+    "ami": null,
+    "icsi": null,
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the whole meeting.",
+                "tokenized_answer": [
+                    "The whole meeting was focused on the conceptual design of the new remote control product.",
+                    "After Project Manager briefly reaffirmed the agreements reached in previous meetings, Marketing, User Interface, and Industrial Designer each gave a presentation about trend-watching, interface design, and components design respectively.",
+                    "Then, Project Manager started a group discussion about important points just covered, including energy source, voice recognition, LCD screen, as well as case design, on which more emphasis was paid in the last half of the meeting.",
+                    "Finally, the group roughly drew out a specific case design."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "It's the conceptual design meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 2,
+                            "sent_index": 7,
+                            "speaker": "Project Manager",
+                            "content": "And a few points of interest in this meeting um are the conceptual specification of components . Uh conceptual specification of design . And also trend-watching ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 12,
+                            "speaker": "Project Manager",
+                            "content": "Then we have three presentations ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 2,
+                            "sent_index": 13,
+                            "speaker": "Project Manager",
+                            "content": "Uh after that we have to come to a decision on remote control concepts ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "Then a little uh thing about the last meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 6,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Uh these are the points um we agreed on . The requirements and the target market ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Uh requirements are uh teletext , docking station , audio signal , small screen , with some extras that uh button information ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 6,
+                            "sent_index": 10,
+                            "speaker": "Project Manager",
+                            "content": "And we're going to target uh sixty to to eighty year old customers ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 11,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "I'm uh gonna inform you about the trend-watching I've done over the past few days ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 19,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "{gap} uh some uh research uh a about um designing of an interface ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 25,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "About the components design ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "that brings us to the discussion about our concepts ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "these are the points we have to discuss ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 28,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Um first I think we can talk about the energy source ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 69,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "I think uh elderly people just like to have everything in place ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 73,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So maybe a docking station will help them give the remote a place ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 75,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "And also what you said . Um you can introduce voice recognition by uh finding back your remote ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 90,
+                            "sent_index": 4,
+                            "speaker": "Marketing",
+                            "content": "you can see here , our target group would not do that ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 101,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "But that would also go for the L_C_D_ screen then I guess ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 132,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "And then we get to the point of the case ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 151,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Uh is it possible uh to make um changeable uh case ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 168,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "We would have to look carefully into the design though ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 169,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Costs ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 274,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "I could draw them out ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 287,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I suggest um the single curved ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 306,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "the remote control have to um lay in your hand ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 308,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "And to put uh the the buttons for um changing uh the channel uh over here uh {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 339,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "But um the on-off button , um still on the top uh {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 345,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I'd prefer the corners to be round ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Why did Marketing disagree with kinetic energy as a solution proposed by Industrial Designer?",
+                "tokenized_answer": [
+                    "For one thing, Marketing argued that target customers as the elder generation tended not to shake their remote controls before using.",
+                    "For another, he believed that the docking station was in a position to load up the batteries, therefore, the basic normal battery would be sufficient for the charging need, which was confirmed by User Interface who pointed out that remote control with a minor display would in no way be power-consuming."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 53,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "personally I don't think that older people like to shake their remote control before they use it ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 58,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I think our docking station could be one of the marketing issues with which we can um"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 63,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "you could load up the batteries ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "Uh it's uh just a small display"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 66,
+                            "sent_index": 3,
+                            "speaker": "User Interface",
+                            "content": "so I believe uh it will run on one battery for um six months or f or or more ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 122,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "but I think just a simple battery which you can reload on a docking station is just as good ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why did the group discard voice recognition function?",
+                "tokenized_answer": [
+                    "Marketing first brought up price concern, implying that voice recognition could significantly drive up cost and price.",
+                    "Also, Marketing argued that unlike the LCD screen, the elderly would not fancy speech recognition because it would not make the remote control more user-friendly.",
+                    "Project Manager applauded Marketing's opinion and agreed that the LCD screen should be given priority over voice recognition."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 84,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "I'm wondering um what will the voice recognition mean for the production price ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 86,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Mm I don't have any information on pricing ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Because it will increase cost uh signifi uh significantly ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 102,
+                            "sent_index": 6,
+                            "speaker": "Marketing",
+                            "content": "And on top of that the L_C_D_ screen would um help in making the remote control easier to use ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 106,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "And I think a voice recognition function would not make the remote control much easier to use ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 107,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Easier to use ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 107,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "I think that's a good point ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 114,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I personally think the L_C_D_ screen we wanna use , with the extra information , I think nobody has anything against it ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 118,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "Maybe we have to uh discard the voice recognition ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the group discussion about case design.",
+                "tokenized_answer": [
+                    "Firstly, the group reached a consensus that material should be plastic with wooden colour as opposed to wood.",
+                    "Then, User Interface brought forward a changeable case as a solution and was unanimously accepted.",
+                    "After that, the group discussed the shape of the control and chose single-curved for the time being.",
+                    "Finally, they drew out a specific case design and roughly determined the position of each button while taking the convenience of left-handed users into account."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 132,
+                            "sent_index": 6,
+                            "speaker": "Project Manager",
+                            "content": "wood is a lot more expensive to produce ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 139,
+                            "sent_index": 1,
+                            "speaker": "Marketing",
+                            "content": "{disfmarker} {vocalsound} And I think most important factor there is the wooden colour ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 139,
+                            "sent_index": 2,
+                            "speaker": "Marketing",
+                            "content": "So it wouldn't actually have to be wood ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 150,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "It's a lot more difficult to to handle and to to get in the right shape ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 151,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "Uh is it possible uh to make um changeable uh case ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 183,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "everybody's okay with the changing covers ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 183,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "I think that's a good uh good option ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 184,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 185,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Yes ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 276,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "Let's look at the flat case ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 280,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "The the single curved so I'm not really sure what they're gonna look like , but I think it's something like this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 282,
+                            "sent_index": 0,
+                            "speaker": "Industrial Designer",
+                            "content": "And the double curved s looks something like this I guess ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 284,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "th those are the three options we have ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 287,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "I suggest um the single curved ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 274,
+                            "sent_index": 1,
+                            "speaker": "Industrial Designer",
+                            "content": "I could draw them out ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 308,
+                            "sent_index": 0,
+                            "speaker": "User Interface",
+                            "content": "And to put uh the the buttons for um changing uh the channel uh over here uh {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 335,
+                            "sent_index": 2,
+                            "speaker": "Project Manager",
+                            "content": "and then we can have a little bit off here and here maybe ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 335,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "Just that's for left hand and right hand users ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 339,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "But um the on-off button , um still on the top uh {disfmarker}"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What decision did the group make on changeable cases when discussing case design?",
+                "tokenized_answer": [
+                    "As Marketing explained, a single remote control would be designed to fit into an original wooden cover as well as a standard plastic one, in order to meet the differentiated needs of the customers.",
+                    "As a result, besides remote control, two types of cases would also be sold as extra products."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 170,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'Cause we would have to make one w uh control which would fit in with a wooden cover and a plastic cover . The more original one , or the more standard one ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 154,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Change the cases . Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 155,
+                            "sent_index": 2,
+                            "speaker": "User Interface",
+                            "content": "you have just to make one um standard um remote control ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 156,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "You can sell the cases ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 162,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "Because that's a {disfmarker} it's something extra ,"
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Why did the group give up the idea of positioning symmetrical buttons on both the left and right side?",
+                "tokenized_answer": [
+                    "Firstly, despite the convenience of left-handed users, symmetrical button design would create extra buttons and hence inevitably confuse users.",
+                    "Also, Project Manager pointed out that left-handed users have no difficulty handling the remote control by either side of hands.",
+                    "User Interface added that a thumb was sufficient for this motion, so no difference should exist between left and right."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 221,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "For left-handed users also ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 235,
+                            "sent_index": 0,
+                            "speaker": "Marketing",
+                            "content": "'Cause it could be made all symmetrical and stuff ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 237,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "But you have extra buttons ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 239,
+                            "sent_index": 0,
+                            "speaker": "Project Manager",
+                            "content": "So people can get confused ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 258,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "But is it a problem that left-handed persons use a different hand ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 258,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "that basic that nobody should have any problems with uh choosing a channel"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 258,
+                            "sent_index": 1,
+                            "speaker": "Project Manager",
+                            "content": "But is it a problem that left-handed persons use a different hand ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 258,
+                            "sent_index": 3,
+                            "speaker": "Project Manager",
+                            "content": "that basic that nobody should have any problems with uh choosing a channel"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 261,
+                            "sent_index": 1,
+                            "speaker": "User Interface",
+                            "content": "It's just uh u using uh your thumb ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
