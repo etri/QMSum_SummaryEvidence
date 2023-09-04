@@ -1,0 +1,798 @@
+{
+    "domain": "Academic(icsi)",
+    "ami": null,
+    "icsi": null,
+    "qmsum": {
+        "general_query_list": [
+            {
+                "query": "Summarize the meeting",
+                "tokenized_answer": [
+                    "The team was setting up a new project in which they would record meetings and then generate summaries.",
+                    "The meeting began with introductions and a discussion of what kind of data the team could collect.",
+                    "They considered collecting visual data as well as notes.",
+                    "At the end of the meetings, the team wanted to ask participants to summarize what they took away as well as ask questions about the meeting.",
+                    "This would be a method for collecting more data to train a potential summarization model.",
+                    "One concern the team had was how they could reduce bias when collecting queries.",
+                    "Words like \"important\" could skew participant responses.",
+                    "The team also expressed some interest in collecting action items.",
+                    "Finally, the team discussed what each member should do to get the project up and running and the role of diversity in their data set."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ],
+                    [
+                        4
+                    ],
+                    [
+                        5
+                    ],
+                    [
+                        6
+                    ],
+                    [
+                        7
+                    ],
+                    [
+                        8
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 16,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "Um , Meeting Recorder meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 26,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "So we said {disfmarker} we said data collection , which we 're doing ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 63,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "and , um , uh , you {disfmarker} you put up there data format ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 70,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "So , getting people to do queries afterwards ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 70,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "getting people to do summaries afterwards ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 95,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I just realized we skipped the part that we were saying we were gonna do at the front where we each said who we were ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 99,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "But anyway , shall we do the roll call ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "uh , yeah , I 'm Morgan ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 100,
+                            "sent_index": 6,
+                            "speaker": "Professor D",
+                            "content": "I 'm on channel three ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 136,
+                            "sent_index": 0,
+                            "speaker": "Postdoc H",
+                            "content": "OK , so we were on the data collection {pause} {comment} and the summary issue ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 150,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "which is , um , we certainly do want to branch out beyond , uh , uh , recording meetings about Meeting Recorder ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 327,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "but in most meetings that I attend , there 's somebody t explicitly taking notes , frequently on a laptop {disfmarker}"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 378,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "technical discussions you don't usually have somebody taking notes ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 441,
+                            "sent_index": 0,
+                            "speaker": "PhD E",
+                            "content": "Actually {disfmarker}"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 442,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "They {disfmarker} they {disfmarker} they {disfmarker} they h must have had some discussion about video and the visual aspect , and all that ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 579,
+                            "sent_index": 2,
+                            "speaker": "Professor D",
+                            "content": "uh , so I guess that 's th the way {disfmarker} what you were figuring on doing was {disfmarker} was {disfmarker} was , uh , putting together some notes and sending them to {disfmarker} to everybody"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 583,
+                            "sent_index": 3,
+                            "speaker": "Professor D",
+                            "content": "And then the next thing we talked about was the {disfmarker} was the summaries"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 639,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So who {disfmarker} who does this summarization ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 641,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "People in the meeting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 643,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "You know , just at {disfmarker} at the end of the meeting , before you go ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 949,
+                            "sent_index": 3,
+                            "speaker": "Professor A",
+                            "content": "Uh , and then going around the room at the end to just say {disfmarker} qu ask people to mention something interesting that they learned ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 591,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I guess the point was to try {disfmarker} again , to try to collect more information that could be useful later for {disfmarker} for the UI stuff ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 606,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Yeah . But not {disfmarker} not to rely on them for {pause} basic modeling ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 612,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I guess a lot of the stuff we 're doing now really is pilot"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 920,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "does building queries based on what 's important now introduce an irreversible bias on being able to do what Morgan wants to do later ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 921,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Well , irreversible ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 924,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "I {disfmarker} I {disfmarker} I mean , I guess what I what I {disfmarker} I keep coming back to in my own mind is that , um , the soonest we can do it , we need to get up some kind of system"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 934,
+                            "sent_index": 0,
+                            "speaker": "Postdoc H",
+                            "content": "I will say that {disfmarker} that I {disfmarker} I chose \" interesting \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 934,
+                            "sent_index": 1,
+                            "speaker": "Postdoc H",
+                            "content": "because I think it includes also \" important \""
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 934,
+                            "sent_index": 3,
+                            "speaker": "Postdoc H",
+                            "content": "But , um , I {disfmarker} I {disfmarker} I feel like the summary gets {pause} at a different type of information ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 935,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "I think \" important \" can often be uninteresting ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 947,
+                            "sent_index": 0,
+                            "speaker": "Professor A",
+                            "content": "No , i in the interest of generating some minutes here ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 947,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "uh , and also moving on to action items and other things ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 947,
+                            "sent_index": 5,
+                            "speaker": "Professor A",
+                            "content": "um , if Landay can get the , uh {disfmarker} get them to {disfmarker} to you guys ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 947,
+                            "sent_index": 6,
+                            "speaker": "Professor A",
+                            "content": "um , and see if they 're interesting ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 947,
+                            "sent_index": 7,
+                            "speaker": "Professor A",
+                            "content": "And if they are , then we 'll try to get m do it more ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1070,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "And , you know , there 's obviously {pause} detail behind each of those , as much as is needed ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1071,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "What I have down for action items is we 're supposed to find out about our human subject , um , {vocalsound} requirements ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1075,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "for their {disfmarker} for web pages ,"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1075,
+                            "sent_index": 2,
+                            "speaker": "Professor A",
+                            "content": "to c and I 'll put together an overall cover ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1089,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "Uh , you need to put together a mailing list ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1164,
+                            "sent_index": 2,
+                            "speaker": "Postdoc H",
+                            "content": "um , the on - line , uh , data that Adam set up ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1175,
+                            "sent_index": 1,
+                            "speaker": "Grad G",
+                            "content": "different level , prosody and all that sort of stuff ."
+                        }
+                    ]
+                ]
+            }
+        ],
+        "specific_query_list": [
+            {
+                "query": "Summarize the discussion about generating queries",
+                "tokenized_answer": [
+                    "The team wanted to think about how they would generate queries.",
+                    "One method was directly generating queries from the summaries, though the concern was that this would not be very desirable.",
+                    "Asking an open ended question about what was most interesting would allow the team to get a sense of the important topics."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 742,
+                            "sent_index": 0,
+                            "speaker": "Grad G",
+                            "content": "We {disfmarker} we 've just been talking , how do we generate queries ?"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 745,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "so , the question I had is is have we given any thought to how we would generate queries automatically given a summary ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 747,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "so that it may not be a feasible thing ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 820,
+                            "sent_index": 0,
+                            "speaker": "Postdoc H",
+                            "content": "I 'm also wondering if we could ask the {disfmarker} the people a {disfmarker} a question"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 820,
+                            "sent_index": 1,
+                            "speaker": "Postdoc H",
+                            "content": "which would be \" what was the most interesting thing you got out of this meeting ? \""
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 820,
+                            "sent_index": 2,
+                            "speaker": "Postdoc H",
+                            "content": "Becau - in terms of like informativeness ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 821,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "That 's a good one ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD F think about generating queries?",
+                "tokenized_answer": [
+                    "PhD F thought that it would be interesting to generate queries from the summaries, as that would open up a new area of research.",
+                    "PhD F realized that this may not be feasible, however."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 745,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "so , the question I had is is have we given any thought to how we would generate queries automatically given a summary ?"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 745,
+                            "sent_index": 1,
+                            "speaker": "PhD F",
+                            "content": "I mean , I think that 's a whole research topic un unto itself ,"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 747,
+                            "sent_index": 0,
+                            "speaker": "PhD F",
+                            "content": "so that it may not be a feasible thing ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD B think about automatically generating queries?",
+                "tokenized_answer": [
+                    "PhD B thought generating queries went beyond the score of the project and that Landay was more equipped to handle a project like that.",
+                    "Though, PhD B recognized the flaw with people generating queries from the summaries"
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 750,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Shouldn't Landay and his group be in charge of figuring out how to do this ?"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 751,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Yeah ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 752,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "I mean , this is an issue that goes a little bit beyond where {pause} we are right now ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 799,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "But the people will just look at the summaries or the minutes and re and sort of back - generate the queries ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 799,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "That 's what I 'm worried about ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "Summarize the discussion on diversity in speech data",
+                "tokenized_answer": [
+                    "The team thought it would be worthwhile to get different sorts of meeting data.",
+                    "Meetings will vary in mic placement, speaker sound overlap, and style.",
+                    "Even the dominance relationships in the meetings would cause variance in the data.",
+                    "Some members also wanted to gather TV and radio data."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ],
+                    [
+                        3
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1335,
+                            "sent_index": 1,
+                            "speaker": "Professor A",
+                            "content": "So , I think that {disfmarker} that there 's a good chance we could get more variety ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1336,
+                            "sent_index": 1,
+                            "speaker": "Postdoc H",
+                            "content": "Just want to be sure there 's enough data to {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1338,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "They 're still gonna overlap ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1346,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "So it also depends on the style of the group of people ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1359,
+                            "sent_index": 0,
+                            "speaker": "Postdoc H",
+                            "content": "Fine . And I {disfmarker} you know , I {disfmarker} I know that the near f near - field mikes will take care of also the problems to s to a certain degree ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1348,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "Like the , um , dominance relations of the people in the meeting ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1349,
+                            "sent_index": 1,
+                            "speaker": "Postdoc H",
+                            "content": "On the task , and the task ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1351,
+                            "sent_index": 0,
+                            "speaker": "Postdoc H",
+                            "content": "It 's just {disfmarker}"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1445,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "But what he means is that {disfmarker} You know , Mark was really a fan of getting as much data as possible from {disfmarker} you know , reams and reams of stuff , of broadcast stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1449,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "TV stuff ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1449,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "radio stuff ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did PhD B think about meeting diversity?",
+                "tokenized_answer": [
+                    "PhD B explained the different features of meetings and favored collection of diverse data.",
+                    "PhD B thought the team's data collection could focus on natural meetings, but there was no reason to not incorporate other data."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1340,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "but {disfmarker} Mark and others have said that there 's quite a lot of found data {comment} from the discourse community that has this characteristic"
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1377,
+                            "sent_index": 6,
+                            "speaker": "PhD B",
+                            "content": "cuz they had collected a lot of meetings that were sort of like this"
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1377,
+                            "sent_index": 7,
+                            "speaker": "PhD B",
+                            "content": "and said that those are nothing like these meetings ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1377,
+                            "sent_index": 9,
+                            "speaker": "PhD B",
+                            "content": "And , I guess we just left it as {disfmarker} @ @ {comment} that {pause} if there 's found data that can be transformed for use in speech recognition easily , then of course we would do it ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1379,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "but newly collected data would {disfmarker} would be natural meetings ."
+                        }
+                    ]
+                ]
+            },
+            {
+                "query": "What did the team discuss about politics around collected data?",
+                "tokenized_answer": [
+                    "The team knew that the CMU folks had collected a lot of data, but they were not sure if it was publicly available.",
+                    "It seemed that there was politics involved.",
+                    "The team thought that they could let Mark see if CMU would let them use the data."
+                ],
+                "answer_sentence_index": [
+                    [
+                        0
+                    ],
+                    [
+                        1
+                    ],
+                    [
+                        2
+                    ]
+                ],
+                "evidence": [
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1380,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Actually , th @ @ {comment} the CMU folk have collected a lot of data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1380,
+                            "sent_index": 1,
+                            "speaker": "Professor D",
+                            "content": "Is that {disfmarker} is that going to be publicly available ,"
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1381,
+                            "sent_index": 0,
+                            "speaker": "PhD B",
+                            "content": "As far as I know , they h have not ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "CES",
+                            "turn_index": 1386,
+                            "sent_index": 3,
+                            "speaker": "PhD B",
+                            "content": "but I {disfmarker} I got the feeling there was some politics involved ."
+                        }
+                    ],
+                    [
+                        {
+                            "type": "PES",
+                            "turn_index": 1380,
+                            "sent_index": 0,
+                            "speaker": "Professor D",
+                            "content": "Actually , th @ @ {comment} the CMU folk have collected a lot of data ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1402,
+                            "sent_index": 3,
+                            "speaker": "PhD B",
+                            "content": "But as far as I know they didn't offer that data to the community at this meeting ."
+                        },
+                        {
+                            "type": "PES",
+                            "turn_index": 1404,
+                            "sent_index": 1,
+                            "speaker": "PhD B",
+                            "content": "cuz Mark {disfmarker} you know , Mark 's really into this ."
+                        },
+                        {
+                            "type": "CES",
+                            "turn_index": 1404,
+                            "sent_index": 2,
+                            "speaker": "PhD B",
+                            "content": "We should keep in touch with him ."
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+}
